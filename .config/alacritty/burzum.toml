@@ -1,0 +1,45 @@
+# name: BURZUM colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: ${upstream}
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#000000'
+# alternate, darker background = '#231c14'
+foreground = '#c1c1c1'
+
+#[colors.cursor]
+#cursor = '#c1c1c1'
+#text = '#000000'
+
+# Normal colors
+[colors.normal]
+black = '#231c14'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#999999'
+cyan = '#ddeecc'
+white = '#c1c1c1'
+
+# Bright colors
+[colors.bright]
+black = '#505050'
+red = '#5f8787'
+green = '#c1c1c1'
+yellow = '#888888'
+blue = '#aaaaaa'
+magenta = '#99bbaa'
+cyan = '#ddeecc'
+white = '#c1c1c1'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#aaaaaa'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#5f8787'

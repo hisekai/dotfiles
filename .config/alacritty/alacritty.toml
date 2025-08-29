@@ -1,0 +1,15 @@
+[general]
+import = ["~/.config/alacritty/burzum.toml"]
+
+[window]
+
+padding.x = 10
+padding.y = 10
+
+[font]
+
+normal.family = "BlexMono Nerd Font"
+bold.family = "BlexMono Nerd Font"
+italic.family = "BlexMono Nerd Font"
+bold_italic.family = "BlexMono Nerd Font"
+size = 10.0
