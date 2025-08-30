@@ -20,13 +20,13 @@ stow .
 * [i3wm](https://github.com/i3/i3) as WM
 * [polybar](https://github.com/polybar/polybar) as status bar
 * [rofi](https://github.com/davatorium/rofi) as dmenu/app launcher
-* [alacritty](https://github.com/alacritty/alacritty) as terminal emulator
+* [kitty](https://sw.kovidgoyal.net/kitty/) as terminal emulator
 * [fish](https://github.com/fish-shell/fish-shell) as shell
 * [neovim](https://github.com/neovim/neovim) as the main editor
 * [qutebrowser](https://github.com/qutebrowser/qutebrowser) as the main browser
 * [zathura](https://github.com/pwmt/zathura) as the document reader/viewer
 * [nnn](https://github.com/jarun/nnn) as the file manager
-* [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) as the MPD client/TUI for playing music
+* [rmpc](https://mierak.github.io/rmpc/) as TUI for playing music
 * [mpv](https://github.com/mpv-player/mpv) for streaming videos
 
 The color scheme has been based on the [Black Metal Neovim Collection](https://github.com/metalelf0/black-metal-theme-neovim), the Burzum one in particular.
