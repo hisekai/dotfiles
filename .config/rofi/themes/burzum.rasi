@@ -1,0 +1,83 @@
+* {
+  primary: #5f8787;
+  secondary: #505050;
+  black: #000000;
+  txt: #c1c1c1;
+  txt-highlight: #ddeecc;
+  spacing:0;
+}
+
+window {
+  width: 400px;
+  background-color:@primary;
+}
+
+mainbox {
+  background-color: @primary;
+  children: [inputbar, message, listview, mode-switcher];
+}
+
+inputbar {
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 7px 9px 0;
+  font:"BlexMono Nerd Font 12";
+  text-color: @txt;
+  background-color: @secondary;
+}
+entry {
+  padding: 9px;
+  text-color: @txt;
+  background-color: @secondary;
+}
+
+message {}
+textbox {
+  border:0 0 1px 0;
+  border-color: @black;
+  padding:9px;
+}
+
+listview {
+  cycle: false;
+  scrollbar: false;
+  background-color: @secondary;
+  lines:10;
+}
+element {
+  text-color: @txt;
+  padding:9px 9px;
+  background-color: @black;
+}
+element.selected {
+  text-color: @txt-highlight;
+  background-color: @black;
+}
+element-icon {
+  margin:0 11px 0 0;
+  background-color:inherit;
+}
+element-text {
+  text-color:inherit;
+  background-color:inherit;
+}
+mode-switcher {
+  background-color: @black;
+}
+button {
+  padding:2px 0 2px 0;
+  font:"BlexMono Nerd Font 12";
+  text-color: @txt;
+  background-color: @black;
+  border:2px 0 0 0;
+  border-color: @black;
+}
+button selected {
+  text-color: @txt;
+  background-color: @secondary;
+  border:2px 0 0 0;
+  border-color: @secondary;
+}
+

@@ -1,0 +1,8 @@
+configuration {
+ modi: "window,drun";
+ font: "BlexMono Nerd Font 10";
+ combi-modi: "window,drun";
+ display-window: " ";
+ display-drun: " ";
+ }
+@theme "burzum"
